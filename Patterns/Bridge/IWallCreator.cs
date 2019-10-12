@@ -6,6 +6,9 @@ namespace Bridge
 {
     interface IWallCreator
     {
-        void CreateWall();
+        void BuildWallWithDoor();
+        void BuildWall();
+        void BuildWallWithWindow();
+        void BuildRoof();
     }
 }
