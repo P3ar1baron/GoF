@@ -6,7 +6,9 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var me = new Myself();
+            me.ChangeStrategy(new AnotherWearingStrategy());
+            me.GoOutside();
         }
     }
 }
