@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{F9BA3BEE-8983-49DD-9AD7-3864E2429274}"
 EndProject
@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{F3A3B9A7-F5F8-4456-A978-A507E26A8148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{04E51895-F261-4F14-8C37-56F63644CBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{8B711C1A-BE69-4444-987A-83E0D2EB8A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{D141C9F7-4504-49F5-9955-0D0C813DDD57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +73,14 @@ Global
 		{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B711C1A-BE69-4444-987A-83E0D2EB8A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B711C1A-BE69-4444-987A-83E0D2EB8A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B711C1A-BE69-4444-987A-83E0D2EB8A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B711C1A-BE69-4444-987A-83E0D2EB8A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D141C9F7-4504-49F5-9955-0D0C813DDD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D141C9F7-4504-49F5-9955-0D0C813DDD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D141C9F7-4504-49F5-9955-0D0C813DDD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D141C9F7-4504-49F5-9955-0D0C813DDD57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +95,8 @@ Global
 		{A0C40CC3-B20C-40CC-9110-10C173D6F255} = {9480472F-F2A4-4A08-AA67-4BFAF56626BF}
 		{F3A3B9A7-F5F8-4456-A978-A507E26A8148} = {9480472F-F2A4-4A08-AA67-4BFAF56626BF}
 		{AD5FFBA7-3CDE-44C8-B797-2F2258E3B2CB} = {9480472F-F2A4-4A08-AA67-4BFAF56626BF}
+		{8B711C1A-BE69-4444-987A-83E0D2EB8A92} = {04E51895-F261-4F14-8C37-56F63644CBB8}
+		{D141C9F7-4504-49F5-9955-0D0C813DDD57} = {04E51895-F261-4F14-8C37-56F63644CBB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D482AA4-3E61-434F-A89E-D9B6368D9C0D}
